@@ -5,22 +5,22 @@ const routes = [
   {
     path: "/login",
     name: "login",
-    component: () => import("../pages/login/index.vue"),
+    component: () => import("@/pages/login/index.vue"),
   },
   {
     path: "/home",
     name: "home",
-    component: () => import("../pages/home/index.vue"),
+    component: () => import("@/pages/home/index.vue"),
   },
   {
     path: "/about",
     name: "about",
-    component: () => import("../pages/about/index.vue"),
+    component: () => import("@/pages/about/index.vue"),
   },
   {
     path: "/404",
     name: "404",
-    component: () => import("../pages/no-found/index.vue"),
+    component: () => import("@/pages/no-found/index.vue"),
   },
   {
     path: "/:w+",
